@@ -4,7 +4,7 @@ window.onload = function() {
 // https://coronavirus-19-api.herokuapp.com/countries/
 
 function getCovidStats() {
-	fetch('https://coronavirus-tracker-api.herokuapp.com/v2/locations/165')
+	fetch('https://coronavirus-tracker-api.herokuapp.com/v2/locations/237')
 		.then(resp => resp.json())
 		.then(data => {
 		// console.log(data)
